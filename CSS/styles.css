@@ -92,24 +92,15 @@ body {
   }
 }
 
-.iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%;
-  position: relative;
+.form-button{
+  padding: 5% 10%;
+  margin: auto auto 20px auto;
 }
-
-.iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
-}
-
-/* 4x3 Aspect Ratio */
-.iframe-container-4x3 {
-  padding-top: 75%;
+@media (max-width: 900px){
+  .form-button{
+    margin: 20px auto 20px auto;
+    padding: 10% 20%;
+  }
 }
 
 /* BOTTOM COINTAINER */
@@ -124,4 +115,9 @@ body {
   padding-top: 20px;
   font-size: 50px;
   color: #ffffff;
+}
+@media (max-width: 900px){
+  .copyright{
+    font-size: 20px;
+  }
 }
