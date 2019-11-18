@@ -1,0 +1,80 @@
+/* GENERAL */
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+/* TOP COINTAINER */
+.top-container {
+  width: 100%;
+  text-align: center;
+  background-color: #66BFBF;
+}
+
+.first-title {
+  font-size: 100px;
+}
+.blu-description{
+  padding: 0 20%;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.presentations {
+  margin: auto 0 auto 0;
+}
+
+/* MIDDLE COINTAINER */
+.middle-container {
+  text-align: center;
+}
+
+.second-title {
+  margin: 100px auto auto auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.profile-pic {
+  max-width: 20%;
+  max-height: 20%;
+  width: auto;
+  height: auto;
+}
+
+.name{
+  font-size: 60px;
+  font-family: 'Courgette', cursive;
+}
+
+.member-description{
+  font-size: 20px;
+  margin: auto 20% auto 20%;
+  font-weight: 300;
+}
+/* GOOGLE FORM */
+.google-form {
+  text-align: center;
+}
+
+#google-form-title {
+  margin: auto 20% 5% 20%;
+  color: #66BFBF;
+}
+
+/* BOTTOM COINTAINER */
+.bottom-container {
+  text-align: center;
+  background-color: #66BFBF;
+  height: 100px;
+}
+
+.copyright {
+  margin: auto auto 0 auto;
+  padding-top: 20px;
+  font-size: 50px;
+  color: #ffffff;
+}
