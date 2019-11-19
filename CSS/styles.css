@@ -7,17 +7,20 @@ body {
 }
 
 /* TOP COINTAINER */
-.top-image{
+.new-york-wall{
+  max-width: 100%;
   z-index: -1;
   position: absolute;
   filter: blur(2px);
+}
+.top-color{
   background-color: #000000;
-}
-.new-york-wall{
-  max-width: 100%;
-}
-.top-container {
+  z-index: -2;
+  position: absolute;
   width: 100%;
+  height: 80%;
+}
+.first-block-text{
   text-align: center;
 }
 
