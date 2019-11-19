@@ -7,16 +7,24 @@ body {
 }
 
 /* TOP COINTAINER */
+.top-image{
+  z-index: -1;
+  position: absolute;
+  filter: blur(2px);
+}
+.new-york-wall{
+  max-width: 100%;
+}
 .top-container {
   width: 100%;
   text-align: center;
-  background-color: #66BFBF;
 }
 
 .first-title {
   font-size: 100px;
+  color: #ffffff;
 }
-@media (max-width: 900px){
+@media (max-width: 800px){
   .first-title{
     font-size: 50px;
   }
@@ -25,8 +33,15 @@ body {
   padding: 0 20%;
   font-size: 50px;
   color: #ffffff;
+  text-shadow: 2px 2px #000000;
 }
-@media (max-width: 900px){
+@media (max-width: 1000px){
+  .blu-description{
+    padding: 0 0;
+    font-size: 40px;
+  }
+}
+@media (max-width: 800px){
   .blu-description{
     padding: 0 0;
     font-size: 20px;
