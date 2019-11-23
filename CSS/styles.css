@@ -112,15 +112,15 @@ body {
 }
 
 .form-button{
-  padding: 5% 10%;
+  padding: 5% 5%;
   margin: auto auto 20px auto;
   font-size: 100px;
 }
 @media (max-width: 900px){
   .form-button{
-    margin: 20px auto 20px auto;
-    padding: 10% 20%;
-    font-size: 50px;
+    margin: 20px auto 20px a;
+    padding: 10% 10%;
+    font-size: 40px;
   }
 }
 
