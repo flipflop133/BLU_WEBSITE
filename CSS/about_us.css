@@ -90,13 +90,7 @@ p{
   filter: blur(2px);
   filter: brightness(30%);
 }
-@media (hover:none), (hover:on-demand){
-  .stakeholders-background{
-    height: 2200px;
-    background-size:cover;
 
-  }
-}
 .stakeholders{
   margin: auto auto auto auto;
   color: #ffffff;
