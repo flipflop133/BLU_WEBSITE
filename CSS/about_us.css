@@ -1,0 +1,104 @@
+h1{
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  font-size: 800%;
+}
+h2{
+  text-align: center;
+  margin: 150px auto auto auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 400%;
+}
+p{
+  text-align: left;
+  max-width: 80%;
+  margin: auto 20% auto 20%;
+  font-family: 'Lato', sans-serif;
+  font-size: 200%;
+  word-spacing: 10px;
+}
+
+.home-button{
+  margin: 10px auto auto 10px;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+@media (hover:none), (hover:on-demand){
+  .home-button{
+    font-size: 30px;
+  }
+}
+
+.Introduction-background{
+  margin: 80px auto auto auto;
+  background-image: url(https://pagestead.com/blog/wp-content/uploads/2017/08/5-Tips-Thatll-Have-You-Managing-Your-Remote-Team-Like-A-Pro.jpg);
+  background-attachment: fixed;
+  width: 100%;
+  height: 500px;
+  z-index: -1;
+  position: absolute;
+  filter: blur(2px);
+  filter: brightness(30%);
+}
+
+@media (hover:none), (hover:on-demand){
+  .Introduction-background{
+    height: 700px;
+  }
+}
+.Introduction{
+  color: #ffffff;
+  text-shadow: black 1px 1px;
+}
+
+.objectives-background{
+  background-image: url(https://www.nasdaq.com/sites/acquia.prod/files/styles/720x400/public/image/1e8d29cc75ba858edd6afc5f4429100006f82f9a_gettyimages-937862440_large.jpg?itok=POYAS-xI);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  margin: auto auto auto auto;
+  width: 100%;
+  height: 500px;
+  z-index: -1;
+  position: absolute;
+  filter: blur(2px);
+  filter: brightness(30%);
+}
+@media (hover:none), (hover:on-demand){
+  .objectives-background{
+    height: 600px;
+    background-size:cover;
+
+  }
+}
+.objectives{
+  margin: auto auto auto auto;
+  color: #ffffff;
+  text-shadow: black 1px 1px;
+}
+
+.stakeholders-background{
+  background-image: url(https://tr3.cbsistatic.com/hub/i/r/2019/08/19/7781cd15-d512-4163-a8f3-c65420e920b9/resize/1200x/8405af53f69396b77bed9b10c212dc7b/istock-1147195672-1.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  margin: auto auto auto auto;
+  width: 100%;
+  height: 1600px;
+  z-index: -1;
+  position: absolute;
+  filter: blur(2px);
+  filter: brightness(30%);
+}
+@media (hover:none), (hover:on-demand){
+  .stakeholders-background{
+    height: 2200px;
+    background-size:cover;
+
+  }
+}
+.stakeholders{
+  margin: auto auto auto auto;
+  color: #ffffff;
+  text-shadow: black 1px 1px;
+}
