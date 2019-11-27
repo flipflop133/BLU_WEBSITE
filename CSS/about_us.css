@@ -12,6 +12,7 @@ h2{
   font-size: 400%;
   padding:50% 0;
   color: white;
+  text-transform: uppercase;
 }
 @media (hover:none), (hover:on-demand){
  h2{
