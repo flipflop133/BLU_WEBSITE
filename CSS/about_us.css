@@ -17,6 +17,7 @@ h2{
 @media (hover:none), (hover:on-demand){
  h2{
   font-size: 700%;
+  margin: auto 5% auto 5%;
  }
 }
 p{
