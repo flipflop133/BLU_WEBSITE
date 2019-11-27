@@ -7,26 +7,17 @@ body {
 }
 
 /* TOP COINTAINER */
-.new-york-wall{
-  max-width: 100%;
-  z-index: -1;
-  position: absolute;
-  filter: blur(2px);
+.top-container{
+  background-image: url(https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
-.top-color{
-  background-color: #000000;
-  z-index: -2;
-  position: absolute;
-  width: 100%;
-  height: 80%;
-}
+
 .first-block-text{
   text-align: center;
 }
 
 .first-title {
   font-size: 100px;
-  color: #ffffff;
+  color: #1bafdb;
 }
 @media (max-width: 800px){
   .first-title{
@@ -36,8 +27,7 @@ body {
 .blu-description{
   padding: 0 20%;
   font-size: 50px;
-  color: #ffffff;
-  text-shadow: 2px 2px #000000;
+  color: #1bafdb;
 }
 @media (max-width: 1000px){
   .blu-description{
@@ -62,7 +52,7 @@ body {
 }
 
 .second-title {
-  margin: 100px auto auto auto;
+  margin: 220px auto auto auto;
   font-family: 'Lato', sans-serif;
   font-size: 100px;
   font-weight: 900;
@@ -117,19 +107,37 @@ body {
   text-align: center;
 }
 
-#google-form-title {
-  margin: auto 20% 5% 20%;
-  color: #66BFBF;
+.form-title-background{
+  background-image: url(https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
 }
-@media (max-width: 900px){
-  #google-form-title{
-    margin: auto;
+@media (hover:none), (hover:on-demand){
+  .form-title-background{
+    height: 100%;
+  }
+}
+.form-title{
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10% 10%;
+  color: #71e68c;
+  text-align: center;
+  margin-top: 20%
+}
+@media (hover:none), (hover:on-demand){
+  .form-title{
+    font-size: 150%;
+    padding: 10% 10%;
   }
 }
 
 .form-button{
   padding: 5% 5%;
-  margin: auto auto 20px auto;
+  margin: 10% auto 20px auto;
   font-size: 100px;
 }
 @media (max-width: 900px){
