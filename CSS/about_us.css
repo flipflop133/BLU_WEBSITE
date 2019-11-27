@@ -1,3 +1,4 @@
+/* GENERAL*/
 h1{
   text-align: center;
   font-family: 'Courgette', cursive;
@@ -5,9 +6,11 @@ h1{
 }
 h2{
   text-align: center;
-  margin: 150px 20% 10% 20%;
+  margin: auto 20% auto 20%;
   font-family: 'Lato', sans-serif;
   font-size: 400%;
+  padding:50% 0;
+  color: white;
 }
 p{
   text-align: left;
@@ -16,6 +19,9 @@ p{
   font-family: 'Lato', sans-serif;
   font-size: 200%;
   word-spacing: 10px;
+  color: white;
+  padding: 30% 0;
+  text-shadow: 2px 2px 1px black;
 }
 
 @media (hover:none), (hover:on-demand){
@@ -25,6 +31,8 @@ p{
     font-size: 300%;
   }
 }
+
+/* HOME BUTTON*/
 .home-button{
   margin: 10px auto auto 10px;
   font-size: 20px;
@@ -36,75 +44,68 @@ p{
   }
 }
 
-.Introduction-background{
-  margin: 80px auto auto auto;
-  background-image: url(https://pagestead.com/blog/wp-content/uploads/2017/08/5-Tips-Thatll-Have-You-Managing-Your-Remote-Team-Like-A-Pro.jpg);
+.Introduction, .Reasons, .Objectives, .Solution, .stakeholders, .in-scope-items, .Risks, .Conclusion{
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 100%;
-  height: 500px;
-  z-index: -1;
-  position: absolute;
-  filter: blur(2px);
-  filter: brightness(30%);
 }
 
-@media (hover:none), (hover:on-demand){
-  .Introduction-background{
-    height: 900px;
-  }
-}
+/* SECTION 1*/
 .Introduction{
-  color: #ffffff;
-  text-shadow: black 1px 1px;
+  background-image: url(https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
-
-.objectives-background{
-  background-image: url(https://www.nasdaq.com/sites/acquia.prod/files/styles/720x400/public/image/1e8d29cc75ba858edd6afc5f4429100006f82f9a_gettyimages-937862440_large.jpg?itok=POYAS-xI);
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-size:cover;
-  margin: auto auto auto auto;
-  width: 100%;
-  height: 500px;
-  z-index: -1;
-  position: absolute;
-  filter: blur(2px);
-  filter: brightness(30%);
+.section-1{
+  background: rgba(0, 0, 0, 0.8);
 }
-@media (hover:none), (hover:on-demand){
-  .objectives-background{
-    height: 800px;
-    background-size:cover;
-
-  }
+/* SECTION 2*/
+.Reasons{
+  background-image: url(https://images.pexels.com/photos/210990/pexels-photo-210990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
-.objectives{
-  margin: auto auto auto auto;
-  color: #ffffff;
-  text-shadow: black 1px 1px;
+.section-2{
+  background: rgba(0, 0, 0, 0.8);
 }
-
-.stakeholders-background{
-  background-image: url(https://tr3.cbsistatic.com/hub/i/r/2019/08/19/7781cd15-d512-4163-a8f3-c65420e920b9/resize/1200x/8405af53f69396b77bed9b10c212dc7b/istock-1147195672-1.jpg);
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-size:cover;
-  margin: auto auto auto auto;
-  width: 100%;
-  height: 1600px;
-  z-index: -1;
-  position: absolute;
-  filter: blur(2px);
-  filter: brightness(30%);
+/* SECTION 3*/
+.Objectives{
+  background-image: url(https://images.pexels.com/photos/839465/pexels-photo-839465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
-@media (hover:none), (hover:on-demand){
-  .stakeholders-background{
-    height: 180%;
-  }
+.section-3{
+  background: rgba(0, 0, 0, 0.8);
 }
-
+/* SECTION 4*/
+.Solution{
+  background-image: url(https://images.pexels.com/photos/955395/pexels-photo-955395.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+.section-4{
+  background: rgba(0, 0, 0, 0.8);
+}
+/* SECTION 5*/
 .stakeholders{
-  margin: auto auto auto auto;
-  color: #ffffff;
-  text-shadow: black 1px 1px;
+  background-image: url(https://images.pexels.com/photos/303159/pexels-photo-303159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+.section-5{
+  background: rgba(0, 0, 0, 0.8);
+}
+/* SECTION 6*/
+.in-scope-items{
+  background-image: url(https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+.section-6{
+  background: rgba(0, 0, 0, 0.8);
+}
+/* SECTION 7*/
+.Risks{
+  background-image: url(https://images.pexels.com/photos/59197/pexels-photo-59197.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+}
+.section-7{
+  background: rgba(0, 0, 0, 0.8);
+}
+/* SECTION 8*/
+.Conclusion{
+  background-image: url(https://images.pexels.com/photos/1040157/pexels-photo-1040157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+.section-8{
+  background: rgba(0, 0, 0, 0.8);
 }
