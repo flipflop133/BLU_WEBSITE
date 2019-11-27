@@ -12,6 +12,11 @@ h2{
   padding:50% 0;
   color: white;
 }
+@media (hover:none), (hover:on-demand){
+ h2{
+  font-size: 700%;
+ }
+}
 p{
   text-align: left;
   max-width: 80%;
