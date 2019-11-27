@@ -3,10 +3,11 @@ h1{
   text-align: center;
   font-family: 'Courgette', cursive;
   font-size: 800%;
+  color: white;
 }
 h2{
   text-align: center;
-  margin: auto 20% auto 20%;
+  margin: auto 10% auto 10%;
   font-family: 'Lato', sans-serif;
   font-size: 400%;
   padding:50% 0;
@@ -57,10 +58,14 @@ p{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+@media (hover:none), (hover:on-demand){
+  .Introduction, .Reasons, .Objectives, .Solution, .stakeholders, .in-scope-items, .Risks, .Conclusion{
+    background-attachment: scroll;
+  }
+}
 /* SECTION 1*/
 .Introduction{
-  background-image: url(https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
 .section-1{
   background: rgba(0, 0, 0, 0.8);
@@ -81,8 +86,9 @@ p{
 }
 /* SECTION 4*/
 .Solution{
-  background-image: url(https://images.pexels.com/photos/955395/pexels-photo-955395.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/04/idea-spark.jpg);
 }
+
 .section-4{
   background: rgba(0, 0, 0, 0.8);
 }
