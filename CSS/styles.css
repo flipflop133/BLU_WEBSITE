@@ -7,8 +7,28 @@ body {
 }
 
 /* TOP COINTAINER */
+.logo-image{
+  width: 20%;
+  padding: 1% 1%;
+}
+@media (hover:none), (hover:on-demand){
+  .logo{
+    text-align: center;
+  }
+}
 .top-container{
-  background-image: url(https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+@media (hover:none), (hover:on-demand){
+  .top-container{
+    background-position: right;
+  }
 }
 
 .first-block-text{
@@ -17,7 +37,9 @@ body {
 
 .first-title {
   font-size: 100px;
-  color: #1bafdb;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000000;
 }
 @media (max-width: 800px){
   .first-title{
@@ -27,7 +49,8 @@ body {
 .blu-description{
   padding: 0 20%;
   font-size: 50px;
-  color: #1bafdb;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
 }
 @media (max-width: 1000px){
   .blu-description{
@@ -52,7 +75,7 @@ body {
 }
 
 .second-title {
-  margin: 220px auto auto auto;
+  margin: 10% auto auto auto;
   font-family: 'Lato', sans-serif;
   font-size: 100px;
   font-weight: 900;
