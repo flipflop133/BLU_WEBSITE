@@ -13,7 +13,7 @@ body {
 }
 @media (hover:none), (hover:on-demand){
   .logo{
-    text-align: center;
+    text-align: left;
   }
 }
 .top-container{
