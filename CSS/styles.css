@@ -17,7 +17,7 @@ body {
   }
 }
 .top-container{
-  background-image: url(https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(https://images.pexels.com/photos/17663/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   position: relative;
   background-position: center;
   background-size: cover;
@@ -27,7 +27,7 @@ body {
 }
 @media (hover:none), (hover:on-demand){
   .top-container{
-    background-position: right;
+
   }
 }
 
