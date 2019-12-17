@@ -18,10 +18,28 @@
 </head>
 
 <body>
-  <div class="top-container">
-    <div class="logo">
-      <img class="logo-image"src="Images/logo_2.png" alt="">
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <a href="#" class="logo">
+      <img class="logo-image" src="Images/logo_2.png" alt="">
+    </a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerBLU" aria-controls="navbarTogglerBLU" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerBLU">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ml-auto active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item ml-auto">
+        <a class="nav-link" href="about_us.html">About us</a>
+      </li>
+    </ul>
     </div>
+  </nav>
+
+
+  <div class="top-container">
     <div class="first-block-text">
       <h1 class="first-title">What is BLU?</h1>
       <p class="blu-description">BLU is a brand new app that aims to help students to find teachers to give them private courses at the best price!</p>
@@ -35,6 +53,13 @@
       </div>
     </div>
   </div>
+
+  <div class="top-container-video">
+    <video class="demo-video" src="Videos/Media1.mp4" autoplay muted loop controls>
+
+    </video>
+  </div>
+
 
   <div class="middle-container">
     <h1 class="second-title">OUR TEAM</h1>
@@ -87,7 +112,7 @@
 
   <div class="google-form" id="google-form-content">
     <section class="form-title-background">
-        <h1 class="form-title">Before you leave, we would really appreciate if you could answer to this short survey that will help us to know if our project can solve a real problematic : </h1>
+      <h1 class="form-title">Before you leave, we would really appreciate if you could answer to this short survey that will help us to know if our project can solve a real problematic : </h1>
     </section>
     <a class="btn btn-outline-primary form-button" href="https://docs.google.com/forms/d/e/1FAIpQLScfIsR5T3irZoRflgmuCW495L1_8cLNo8IZ0J2TMidiRSp0Qw/viewform?usp=sf_link" role="button">BLU FORM</a>
   </div>

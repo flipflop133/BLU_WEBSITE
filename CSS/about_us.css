@@ -4,6 +4,7 @@ h1{
   font-family: 'Courgette', cursive;
   font-size: 800%;
   color: white;
+  padding-top: 20%;
 }
 h2{
   text-align: center;
@@ -14,9 +15,9 @@ h2{
   color: white;
   text-transform: uppercase;
 }
-@media (hover:none), (hover:on-demand){
+@media (max-width: 450px){
  h2{
-  font-size: 700%;
+  font-size: 250%;
   margin: auto 5% auto 5%;
  }
 }
@@ -32,25 +33,37 @@ p{
   text-shadow: 2px 2px 1px black;
 }
 
-@media (hover:none), (hover:on-demand){
+@media (max-width: 450px){
   p{
     max-width: 100%;
     margin: auto 5% auto 5%;
-    font-size: 300%;
+    font-size: 250%;
   }
 }
 
-/* HOME BUTTON*/
-.home-button{
-  margin: 10px auto auto 10px;
-  font-size: 20px;
-  padding: 10px 10px;
+/* NAVBAR */
+
+.navbar{
+  max-width: 100%;
 }
-@media (hover:none), (hover:on-demand){
-  .home-button{
-    font-size: 30px;
+.nav-item{
+  font-size: 200%;
+}
+.logo{
+  width: 10%;
+}
+.logo-image{
+  width: 100%;
+}
+
+@media (max-width: 450px){
+  .logo{
+    width: 30%;
+    margin-left: auto;
   }
 }
+
+
 
 .Introduction, .Reasons, .Objectives, .Solution, .stakeholders, .in-scope-items, .Risks, .Conclusion{
   position: relative;
