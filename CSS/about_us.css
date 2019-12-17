@@ -6,6 +6,11 @@ h1{
   color: white;
   padding-top: 20%;
 }
+@media (max-width: 550px){
+  h1{
+    font-size: 500%
+  }
+}
 h2{
   text-align: center;
   margin: auto 10% auto 10%;
@@ -43,9 +48,6 @@ p{
 
 /* NAVBAR */
 
-.navbar{
-  max-width: 100%;
-}
 .nav-item{
   font-size: 200%;
 }
@@ -55,14 +57,12 @@ p{
 .logo-image{
   width: 100%;
 }
-
 @media (max-width: 700px){
   .logo{
     width: 30%;
     margin-left: auto;
   }
 }
-
 
 
 .Introduction, .Reasons, .Objectives, .Solution, .stakeholders, .in-scope-items, .Risks, .Conclusion{
@@ -73,7 +73,7 @@ p{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-@media (hover:none), (hover:on-demand){
+@media (max-width: 700px){
   .Introduction, .Reasons, .Objectives, .Solution, .stakeholders, .in-scope-items, .Risks, .Conclusion{
     background-attachment: scroll;
   }

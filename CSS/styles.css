@@ -34,11 +34,6 @@ body {
   background-attachment: fixed;
   height: 100%;
 }
-@media (hover:none), (hover:on-demand){
-  .top-container{
-
-  }
-}
 
 .first-block-text{
   text-align: center;
@@ -47,10 +42,15 @@ body {
 @media (max-width: 700px){
   .first-block-text{
     text-align: center;
-    padding-top: 10%;
+    padding-top: 20%;
   }
 }
 
+@media (max-width: 1000px){
+  .first-block-text{
+    padding-top:20%;
+  }
+}
 
 .first-title {
   font-size: 100px;
