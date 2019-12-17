@@ -17,7 +17,7 @@ body {
 .logo-image{
   width: 100%;
 }
-@media (max-width: 450px){
+@media (max-width: 700px){
   .logo{
     width: 30%;
     margin-left: auto;
@@ -44,7 +44,7 @@ body {
   text-align: center;
   padding-top: 6%;
 }
-@media (max-width: 450px){
+@media (max-width: 700px){
   .first-block-text{
     text-align: center;
     padding-top: 10%;
@@ -89,6 +89,7 @@ body {
 .top-container-video{
   text-align: center;
   margin: 10% auto auto auto;
+  max-width: 100%;
 }
 
 .demo-video{
