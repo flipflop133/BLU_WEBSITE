@@ -8,8 +8,19 @@ body {
 
 /* NAVBAR */
 
+.bg-dark{
+    background-color: #333333!important;
+}
+
 .nav-item{
   font-size: 200%;
+}
+.navbar-dark .navbar-toggler{
+  border: none;
+  border-color: #ffffff;
+}
+.navbar-toggler-icon{
+  color:rgba(255, 0, 0, 0.5);
 }
 .logo{
   width: 10%;

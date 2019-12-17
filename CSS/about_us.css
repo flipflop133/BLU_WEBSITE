@@ -8,7 +8,13 @@ h1{
 }
 @media (max-width: 550px){
   h1{
-    font-size: 500%
+    font-size: 500%;
+  }
+}
+@media (max-width: 700px){
+  h1{
+    font-size: 500%;
+    color:black;
   }
 }
 h2{
@@ -24,6 +30,7 @@ h2{
  h2{
   font-size: 250%;
   margin: auto 5% auto 5%;
+  color:black;
  }
 }
 p{
@@ -64,73 +71,122 @@ p{
 }
 
 
-.Introduction, .Reasons, .Objectives, .Solution, .stakeholders, .in-scope-items, .Risks, .Conclusion{
-  position: relative;
-  opacity: 0.9;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-@media (max-width: 700px){
+@media(min-width:700px){
   .Introduction, .Reasons, .Objectives, .Solution, .stakeholders, .in-scope-items, .Risks, .Conclusion{
-    background-attachment: scroll;
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  /* SECTION 1*/
+  .Introduction{
+    background-image: url(https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  }
+  .section-1{
+    background: rgba(0, 0, 0, 0.8);
+  }
+  /* SECTION 2*/
+  .Reasons{
+    background-image: url(https://images.pexels.com/photos/210990/pexels-photo-210990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  }
+  .section-2{
+    background: rgba(0, 0, 0, 0.8);
+  }
+  /* SECTION 3*/
+  .Objectives{
+    background-image: url(https://images.pexels.com/photos/839465/pexels-photo-839465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  }
+  .section-3{
+    background: rgba(0, 0, 0, 0.8);
+  }
+  /* SECTION 4*/
+  .Solution{
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/04/idea-spark.jpg);
+  }
+
+  .section-4{
+    background: rgba(0, 0, 0, 0.8);
+  }
+  /* SECTION 5*/
+  .stakeholders{
+    background-image: url(https://images.pexels.com/photos/303159/pexels-photo-303159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  }
+  .section-5{
+    background: rgba(0, 0, 0, 0.8);
+  }
+  /* SECTION 6*/
+  .in-scope-items{
+    background-image: url(https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  }
+  .section-6{
+    background: rgba(0, 0, 0, 0.8);
+  }
+  /* SECTION 7*/
+  .Risks{
+    background-image: url(https://images.pexels.com/photos/59197/pexels-photo-59197.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  }
+  .section-7{
+    background: rgba(0, 0, 0, 0.8);
+  }
+  /* SECTION 8*/
+  .Conclusion{
+    background-image: url(https://images.pexels.com/photos/1040157/pexels-photo-1040157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  }
+  .section-8{
+    background: rgba(0, 0, 0, 0.8);
   }
 }
-/* SECTION 1*/
-.Introduction{
-  background-image: url(https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-}
-.section-1{
-  background: rgba(0, 0, 0, 0.8);
-}
-/* SECTION 2*/
-.Reasons{
-  background-image: url(https://images.pexels.com/photos/210990/pexels-photo-210990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-}
-.section-2{
-  background: rgba(0, 0, 0, 0.8);
-}
-/* SECTION 3*/
-.Objectives{
-  background-image: url(https://images.pexels.com/photos/839465/pexels-photo-839465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-}
-.section-3{
-  background: rgba(0, 0, 0, 0.8);
-}
-/* SECTION 4*/
-.Solution{
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/04/idea-spark.jpg);
-}
 
-.section-4{
-  background: rgba(0, 0, 0, 0.8);
-}
-/* SECTION 5*/
-.stakeholders{
-  background-image: url(https://images.pexels.com/photos/303159/pexels-photo-303159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-}
-.section-5{
-  background: rgba(0, 0, 0, 0.8);
-}
-/* SECTION 6*/
-.in-scope-items{
-  background-image: url(https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-}
-.section-6{
-  background: rgba(0, 0, 0, 0.8);
-}
-/* SECTION 7*/
-.Risks{
-  background-image: url(https://images.pexels.com/photos/59197/pexels-photo-59197.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
-}
-.section-7{
-  background: rgba(0, 0, 0, 0.8);
-}
-/* SECTION 8*/
-.Conclusion{
-  background-image: url(https://images.pexels.com/photos/1040157/pexels-photo-1040157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-}
-.section-8{
-  background: rgba(0, 0, 0, 0.8);
+
+@media(max-width:700px){
+  .section-1, .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8{
+    position: relative;
+    opacity: 0.9;
+    background-position: center!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-attachment: fixed!important;
+  }
+  /* SECTION 1*/
+  .section-1{
+    background: rgba(0, 0, 0, 0.8);
+    background-image: url(https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  }
+  /* SECTION 2*/
+  .section-2{
+    background: rgba(0, 0, 0, 0.8);
+    background-image: url(https://images.pexels.com/photos/210990/pexels-photo-210990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  }
+  /* SECTION 3*/
+  .section-3{
+    background: rgba(0, 0, 0, 0.8);
+    background-image: url(https://images.pexels.com/photos/839465/pexels-photo-839465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  }
+  /* SECTION 4*/
+  .section-4{
+    background: rgba(0, 0, 0, 0.8);
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/04/idea-spark.jpg);
+  }
+  /* SECTION 5*/
+  .section-5{
+    background: rgba(0, 0, 0, 0.8);
+    background-image: url(https://images.pexels.com/photos/303159/pexels-photo-303159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  }
+  /* SECTION 6*/
+  .section-6{
+    background: rgba(0, 0, 0, 0.8);
+    background-image: url(https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  }
+  /* SECTION 7*/
+  .section-7{
+    background: rgba(0, 0, 0, 0.8);
+    background-image: url(https://images.pexels.com/photos/59197/pexels-photo-59197.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  }
+  /* SECTION 8*/
+  .section-8{
+    background: rgba(0, 0, 0, 0.8);
+    background-image: url(https://images.pexels.com/photos/1040157/pexels-photo-1040157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  }
 }
