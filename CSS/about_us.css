@@ -36,20 +36,22 @@ h2{
 p{
   text-align: left;
   max-width: 80%;
-  margin: auto 20% auto 20%;
+  margin: auto auto auto auto;
   font-family: 'Lato', sans-serif;
-  font-size: 200%;
+  font-size: 1.7rem;
+  line-height: 3rem;
   word-spacing: 10px;
   color: white;
-  padding: 30% 0;
   text-shadow: 2px 2px 1px black;
+  padding:10% 0%;
 }
 
 @media (max-width: 700px){
   p{
     max-width: 100%;
     margin: auto 5% auto 5%;
-    font-size: 250%;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
   }
 }
 
