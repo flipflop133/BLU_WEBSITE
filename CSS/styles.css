@@ -23,6 +23,8 @@ h3{
 }
 .navbar-toggler-icon{
   color:rgba(255, 0, 0, 0.5);
+  width: 3rem;
+  height: 3rem;
 }
 .logo{
   width: 10%;
@@ -54,15 +56,16 @@ h3{
 @media (max-width: 700px){
   .first-block-text{
     text-align: center;
-    padding-top: 20%;
+    padding-top: 30%;
   }
 }
 
-@media (max-width: 1000px){
+@media (min-width: 700px) and (max-width:1000px){
   .first-block-text{
     padding-top:20%;
   }
 }
+
 
 .first-title {
   font-size: 100px;
