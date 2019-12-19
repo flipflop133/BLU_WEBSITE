@@ -4,7 +4,6 @@ html, body, iframe {
   width: 100%;
 }
 body{
-  padding-top: 140px;
   background-color: rgb(50, 54, 57);
 }
 
@@ -19,10 +18,6 @@ body{
 
 .navbar-light .navbar-toggler {
   border: none;
-}
-
-.navbar-toggler-icon {
-  color: rgba(255, 0, 0, 0.5);
 }
 
 .logo {
@@ -42,6 +37,7 @@ body{
 .google-form-answers {
   width: 100%;
   height: 100%;
+  padding-top: 150px;
 }
 
 .google-form-answers-mobile{
@@ -54,5 +50,5 @@ body{
 }
 
 .google-form-answers-mobile-text-2{
-  padding: 30% 10%;
+  padding: 10% 10%;
 }

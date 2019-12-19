@@ -67,9 +67,7 @@ h1{
 .navbar-light .navbar-toggler{
   border: none;
 }
-.navbar-toggler-icon{
-  color:rgba(255, 0, 0, 0.5);
-}
+
 .logo{
   width: 10%;
 }
