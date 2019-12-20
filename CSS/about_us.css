@@ -43,7 +43,7 @@ h1{
   line-height: 3rem;
   color: white;
   text-shadow: 2px 2px 1px black;
-  padding:10% 0%;
+  padding:3% 0%;
 }
 
 @media (max-width: 700px){
@@ -52,7 +52,7 @@ h1{
     font-size: 1.2rem;
     line-height: 1.5625rem;
     background: rgba(0, 0, 0, 0.7);
-    padding: 10% 5%;
+    padding: 3% 5%;
   }
 }
 
@@ -83,7 +83,7 @@ h1{
 /*MIDDLE CONTAINER*/
 /* sections PC*/
 @media(min-width:700px){
-  .Introduction, .Reasons, .Objectives, .Solution, .stakeholders, .in-scope-items, .Risks, .Conclusion{
+  .Introduction, .Reasons, .Objectives, .Solution, .stakeholders, .Risks, .Budget, .Conclusion{
     position: relative;
     opacity: 0.9;
     background-position: center;
@@ -128,14 +128,14 @@ h1{
     background: rgba(0, 0, 0, 0.8);
   }
   /* SECTION 6*/
-  .in-scope-items{
+  .Risks{
     background-image: url(https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   }
   .section-6{
     background: rgba(0, 0, 0, 0.8);
   }
   /* SECTION 7*/
-  .Risks{
+  .Budget{
     background-image: url(https://images.pexels.com/photos/59197/pexels-photo-59197.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
   }
   .section-7{
